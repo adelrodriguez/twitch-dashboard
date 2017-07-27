@@ -1,0 +1,53 @@
+body {
+	background: #eee !important;
+}
+
+.container {
+	padding-top: 20px;
+}
+
+.hero {
+	color: white;
+	background-color: #6441a4;
+	text-align: center;
+	padding: 40px 10px;
+	margin: 20px;
+	border-radius: 30px;
+}
+
+.ui.middle.aligned.spaced.medium.image {
+	margin: 10px 0 20px 0;
+}
+
+.title {
+	font-size: 100px;
+	font-family: 'Lobster', cursive;
+
+	margin: 10px 20px;
+	vertical-align: middle;
+}
+
+@media only screen and (max-width: 564px) {
+
+   .title { 
+      font-size: 64px; 
+   }
+   
+}
+
+.ui.toggle.checkbox {
+	margin: 20px auto 30px auto;
+}
+
+#online {
+	font-color: #fff !important;
+	font-size: 24px;
+}
+
+.icon {
+	color: #6441a4;
+}
+
+.ui.stackable.cards>.card.no-show {
+	display: none !important;
+}

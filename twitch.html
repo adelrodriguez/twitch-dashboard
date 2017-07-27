@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- META -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- STYLES -->
+	<link rel="stylesheet" type="text/css" href="twitch.css">
+	<!-- Semantic UI -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/semantic.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+	<!-- SCRIPTS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="twitch.js"></script>
+
+	<title>Twitch Dashboard</title>
+</head>
+<body>
+	<div class="ui container">
+		<div class="ui container hero">
+			<img class="ui middle aligned spaced medium image" src="https://dl.dropboxusercontent.com/s/tmmg7eh3579c2dz/Twitch_White_RGB.png">
+			<span class="title">Dashboard</span>
+		</div>
+		<div class="ui toggle checkbox">
+			<input type="checkbox" name="public">
+			<label id="online">Online Only</label>
+		</div>
+		<div class="ui four doubling stackable link cards" id="streamers">
+		</div>
+	</div>
+</body>
+</html>
